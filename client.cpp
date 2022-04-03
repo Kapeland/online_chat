@@ -74,7 +74,7 @@ int main(){
 	WSADATA wsaData;
 	WORD sockVersion = MAKEWORD(2, 2);
 	if(WSAStartup(sockVersion, &wsaData) != 0){
-		cout << "Error in initialization of socket!" << endl; // TODO: change error message
+		cout << "Error in launching Ws function" << endl; 
 	}
 
 	SOCKADDR_IN SeverAddress; // Адрес сервера - это целевой адрес для подключения
